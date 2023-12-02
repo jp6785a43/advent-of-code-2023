@@ -31,7 +31,7 @@ class Day1Tests {
     }
 
     @Test
-    void solvePart2Regression() throws IOException {
+    void solvePart2_example() throws IOException {
         var path = Path.of("input", "day1", "part-2-example.txt");
 
         assertEquals(281, part2.solveSimply(path));
